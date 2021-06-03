@@ -13,6 +13,6 @@ roslaunch neuronbot2_slam gmapping_move.launch open_rviz:=true  > /dev/null &
 
 sleep 5
 
-bash $PWD/neuronbot2_init/scripts/goal_test.sh
+bash $PWD/scripts/goal_test.sh
 
 wait
